@@ -11,3 +11,10 @@ local r2 = c.rect(25, 13, 100, 100) -- create the Second Rectangle
 print(c.check(r1, r2)) -- First option
 print(r1:check(r2)) -- Second option
 ```
+
+## Installation
+Just add this Library next to your 'main.lua'<br>
+Inside 'main.lua' write this code:
+```lua
+local c = require 'collision'
+```
